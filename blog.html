@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <style>
+    body{
+
+        background: #0F2027;  
+        background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  
+        background: linear-gradient(to right, #2C5364, #203A43, #0F2027);  
+        }
+
+    .column{
+
+        float: left;
+        width: 24.33%;
+        padding: 5px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .clearfix:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .container {
+            width: 1140px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 30px;
+            background-color: azure;
+            margin-top: 20px;
+        }
+
+        .left {
+            width: 33.3%;
+            float: left;
+            padding-right: 20px;
+        }
+
+        .middle {
+            width: 33.3%;
+            float: left;
+            padding-right: 20px;
+        }
+
+        .right {
+            width: 33.3%;
+            float: left;
+            padding-right: 20px;
+        }
+
+        .blog-container {
+            position: relative;
+        }
+
+        .blog-container .more {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            color: blue;
+        }
+
+        .blog-container img {
+            width: 100%;
+            height: auto;
+        }
+
+        .blog-container p {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .blog-container h1 {
+            margin-bottom: 10px;
+        }
+
+        .blog-container a {
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="blog-container">
+            <h1>Blog</h1>
+            <a href="https://news.ycombinator.com/news?p=2" target="_blank" class="more">Click here for more blog stories</a>
+            <div class="left">
+                <img src="images/Vues.jpg" alt="Vuesimage">
+                <p><strong>I Built A $300K/Year Vue.js Component Library</strong></p>
+                <a href="https://www.starterstory.com/stories/i-built-a-300k-year-vue-js-component-library" target="_blank">Hello! My name is John Leider and I am the founder of Vuetify, LLC.I started my company to help developers, especially design inept and inexperienced ones, build beautiful web applications<strong>......</strong>
+                </a>
+            </div>
+            <div class="middle">
+                <img src="https://cdn.mos.cms.futurecdn.net/73bn6RV4jLnhEasLTcoGPB-970-80.jpg.webp" alt="blog-2-image">
+                <p><strong>Developer returns to game after four decades, discovers and fixes typo so it works</strong></p>
+                <a href="https://www.pcgamer.com/developer-returns-to-game-after-four-decades-discovers-and-fixes-typo-so-it-works/" target="_blank">Harry McCracken is not the name of a Cold War superspy, but a man who is now the tech editor of Fast Company and, in his younger days, a developer of games for Radio Shack's TRS-80 microcomputer. McCracken recently went back to have a look at his first game, Arctic Adventure, which he wrote when he was 16 around 1980-81—a text adventure inspired by the work of Scott Adams in particular, a pioneering designer of the Adventure series of games for the TRS-80<strong>......</strong>
+                </a>
+            </div>
+            <div class="right">
+                <img src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iEz1y_.wYkF0/v1/1000x-1.jpg" alt="blog-3-image">
+                <p><strong>How Gaming Will Change Humanity as We Know It</strong></p>
+                <a href="#">The advent of gaming, especially computer gaming, marks a fundamental break in human affairs. Gaming is profoundly transforming two central aspects of the modern world: culture and regulation. There will be no turning back<strong>......</strong>
+                    .</a>
+            </div>
+
+
+            <div class="clearfix"></div>
+
+
+        </div>
+    </div>
+    <div class="row" id="test">
+                <div class="column">
+                    <a href="home.html"><img src="images/home.png" alt="homeimage" style height="300px">
+                    </a>
+                </div>
+                <div class="column">
+                <a href="about.html"><img src="images/businessman-talking-about-data-analysis.png" alt="Aboutpage" style height="300px">
+                </a>
+                </div>
+                <div class="column">
+                    <a href="skills.html"><img src="images/working.png" alt="skillspage" style height="300px">
+                    </a>
+                </div>
+                <div class="column">
+                <a href="projects.html"><img src="images/testing.png" alt="Projectpage" style height="300px">
+                </a>
+                </div>
+            </div>
+            <footer style="color:white">
+            <marquee>2021 Redgerald Nyamadzavo &copy</marquee>
+        </footer>
+
+
+</body>
+
+</html>
