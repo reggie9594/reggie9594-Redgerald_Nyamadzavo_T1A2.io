@@ -6,25 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <style>
     body{
 
         background: #0F2027;  
         background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  
         background: linear-gradient(to right, #2C5364, #203A43, #0F2027);  
-        }
-
-    .column{
-
-        float: left;
-        width: 24.33%;
-        padding: 5px;
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
         }
 
         .clearfix:after {
@@ -42,26 +30,36 @@
             margin-top: 20px;
         }
 
-        .left {
+
+
+        .blog {
             width: 33.3%;
+            height: 50%;
             float: left;
             padding-right: 20px;
+        }
+
+        .left {
+            width: 33.3%;
+            /*float: left;
+            /*padding-right: 20px;*/
         }
 
         .middle {
             width: 33.3%;
-            float: left;
-            padding-right: 20px;
+            /*float: left;*/
+            /*padding-right: 20px;*/
         }
 
         .right {
             width: 33.3%;
-            float: left;
-            padding-right: 20px;
+            /*float: left;*/
+            /*padding-right: 20px;*/
         }
 
         .blog-container {
             position: relative;
+            /*width: 100%;*/
         }
 
         .blog-container .more {
@@ -98,22 +96,40 @@
         <div class="blog-container">
             <h1>Blog</h1>
             <a href="https://news.ycombinator.com/news?p=2" target="_blank" class="more">Click here for more blog stories</a>
-            <div class="left">
+            <div class="blog">
                 <img src="images/Vues.jpg" alt="Vuesimage">
                 <p><strong>I Built A $300K/Year Vue.js Component Library</strong></p>
-                <a href="https://www.starterstory.com/stories/i-built-a-300k-year-vue-js-component-library" target="_blank">Hello! My name is John Leider and I am the founder of Vuetify, LLC.I started my company to help developers, especially design inept and inexperienced ones, build beautiful web applications<strong>......</strong>
+                <a href="https://www.starterstory.com/stories/i-built-a-300k-year-vue-js-component-library" target="_blank">Hello! My name is John Leider and I am the founder of Vuetify, LLC.I started my company to help developers, especially design inept and inexperienced ones, build beautiful web applications<i>Published 10 May 2021</i><strong>......</strong>
                 </a>
             </div>
-            <div class="middle">
+            <div class="blog">
                 <img src="https://cdn.mos.cms.futurecdn.net/73bn6RV4jLnhEasLTcoGPB-970-80.jpg.webp" alt="blog-2-image">
                 <p><strong>Developer returns to game after four decades, discovers and fixes typo so it works</strong></p>
-                <a href="https://www.pcgamer.com/developer-returns-to-game-after-four-decades-discovers-and-fixes-typo-so-it-works/" target="_blank">Harry McCracken is not the name of a Cold War superspy, but a man who is now the tech editor of Fast Company and, in his younger days, a developer of games for Radio Shack's TRS-80 microcomputer. McCracken recently went back to have a look at his first game, Arctic Adventure, which he wrote when he was 16 around 1980-81—a text adventure inspired by the work of Scott Adams in particular, a pioneering designer of the Adventure series of games for the TRS-80<strong>......</strong>
+                <a href="https://www.pcgamer.com/developer-returns-to-game-after-four-decades-discovers-and-fixes-typo-so-it-works/" target="_blank">Harry McCracken is not the name of a Cold War superspy, but a man who is now the tech editor of Fast Company and, in his younger days, a developer of games for Radio Shack's TRS-80 microcomputer. McCracken recently went back to have a look at his first game, Arctic Adventure, which he wrote when he was 16 around 1980-81—a text adventure inspired by the work of Scott Adams in particular, a pioneering designer of the Adventure series of games for the TRS-80<i>Published 10 May 2021</i><strong>......</strong>
                 </a>
             </div>
-            <div class="right">
+            <div class="blog">
                 <img src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iEz1y_.wYkF0/v1/1000x-1.jpg" alt="blog-3-image">
                 <p><strong>How Gaming Will Change Humanity as We Know It</strong></p>
-                <a href="#">The advent of gaming, especially computer gaming, marks a fundamental break in human affairs. Gaming is profoundly transforming two central aspects of the modern world: culture and regulation. There will be no turning back<strong>......</strong>
+                <a href="#">The advent of gaming, especially computer gaming, marks a fundamental break in human affairs. Gaming is profoundly transforming two central aspects of the modern world: culture and regulation. There will be no turning back<i>Published 10 May 2021</i><strong>......</strong>
+                    .</a>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="blog-container">
+            <div class="blog">
+                <img src="https://ianthehenry.com/posts/peggi/hero_hu5960a19faa377da20f4594896a697490_4812201_1500x1500_fit_box_3.png" alt="blog-3-image">
+                <p><strong>I’ve always been attracted to chording keyboards in theory, but I lack whatever childhood musical training is required to wrap my fingers around them..<i>Published 10 May 2021</i><strong>......</strong>
+                    .</a>
+            </div>
+            <div class="blog">
+                <img src="https://evanhailey.com/wp-content/uploads/2021/07/20210708-0471-768x382.jpg" alt="blog-3-image">
+                <p><strong>The Spotify Box acts as a middleman between the official Spotify app and a new or existing home audio system – allowing you to connect your smart phone to your audio setup and stream music throughout your house. The basic premise of the device revolves around Spotify’s feature known as Spotify Connect which allows you to use your Spotify app as a remote to control different devices that are on the same Wi-Fi network or associated with your account.<i>Published 10 May 2021</i><strong>......</strong>
+                    .</a>
+            </div>
+            <div class="blog">
+                <img src="https://s26162.pcdn.co/wp-content/uploads/2021/08/beach-2650976_1920.jpg" alt="blog-3-image">
+                <p><strong>I moved to Karachi in the aftermath of riots, arriving to smashed shop windows and the smell of burning tires. It was 2012 and the city had been engulfed by protests against a YouTube video that made offensive statements about the Prophet Muhammad. The city’s few remaining cinemas had been attacked, and churches had taken extra security precautions, lest the mob hold Pakistan’s Christians accountable for the crimes of the American filmmakers.<i>Published 10 May 2021</i><strong>......</strong>
                     .</a>
             </div>
 
@@ -123,21 +139,21 @@
 
         </div>
     </div>
-    <div class="row" id="test">
+    <div class="column-container" id="test">
                 <div class="column">
-                    <a href="home.html"><img src="images/home.png" alt="homeimage" style height="300px">
+                    <a href="home.html" title="Home" style="color: white;"><img src="images/home.png" alt="homeimage" style height="300px"><figcaption>Home</figcaption>
                     </a>
                 </div>
                 <div class="column">
-                <a href="about.html"><img src="images/businessman-talking-about-data-analysis.png" alt="Aboutpage" style height="300px">
+                <a href="about.html" title="About" style="color: white;"><img src="images/businessman-talking-about-data-analysis.png" alt="Aboutpage" style height="300px"><figcaption>About</figcaption>
                 </a>
                 </div>
                 <div class="column">
-                    <a href="skills.html"><img src="images/working.png" alt="skillspage" style height="300px">
+                    <a href="skills.html" title="Skills" style="color: white;"><img src="images/working.png" alt="skillspage" style height="300px"><figcaption>Skills</figcaption>
                     </a>
                 </div>
                 <div class="column">
-                <a href="projects.html"><img src="images/testing.png" alt="Projectpage" style height="300px">
+                <a href="projects.html" title="Projects" style="color: white;"><img src="images/testing.png" alt="Projectpage" style height="300px"><figcaption>Projects</figcaption>
                 </a>
                 </div>
             </div>

@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <style>
 	body{
@@ -13,12 +14,7 @@
         background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  
         background: linear-gradient(to right, #2C5364, #203A43, #0F2027);  
         }
-        .column{
 
-        float: left;
-        width: 24.33%;
-        padding: 5px;
-        }
         #test{
         	margin-top: 10%;
         }
@@ -35,11 +31,11 @@
 </style>
 <body>
     <div style="padding-top:5%; padding-left:20%"> 
-        <div class="about">
+        <div class="about"> <!-- r3 div box, graphical desgin of the triangle at the bottom right of the div box for styling it-->
             <center>
                 <h2>About & Intrests</h2>
             </center>
-     <p>
+     <p style="font-style: italic;"><!-- r2 p component style overridden font style italics -->
          I am an aspiring software engineer look to work for a start up organisation after I complete my course.
         At the end of my course I will be a proficient full stack developer.
          I love building things. While hard engineering problems are relatively fun to tackle.
@@ -59,21 +55,21 @@
     </p>
 </div>
     </div>
-	<div class="row" id="test">
+	<div class="column-container" id="test">
                 <div class="column">
-                    <a href="home.html"><img src="images/home.png" alt="homeimage" style height="300px">
+                    <a href="home.html" title="Home" style="color:white;"><img src="images/home.png" alt="homeimage" style height="300px"><figcaption>Home</figcaption>
                     </a>
                 </div>
                 <div class="column">
-                <a href="blog.html"><img src="images/blog (1).png" alt="Aboutpage" style height="300px">
+                <a href="blog.html" title="Blog" style="color:white;"><img src="images/blog (1).png" alt="Blog" style height="300px"><figcaption>Blog</figcaption>
                 </a>
                 </div>
                 <div class="column">
-                    <a href="skills.html"><img src="images/working.png" alt="skillspage" style height="300px">
+                    <a href="skills.html" title="skills" style="color:white;"><img src="images/working.png" alt="skillspage" style height="300px"><figcaption>Skills</figcaption>
                     </a>
                 </div>
                 <div class="column">
-                <a href="projects.html"><img src="images/testing.png" alt="Projectpage" style height="300px">
+                <a href="Projects.html" title="Projects" style="color:white;"><img src="images/testing.png" alt="Projectpage" style height="300px"><figcaption>Projects</figcaption>
                 </a>
                 </div>
             </div>

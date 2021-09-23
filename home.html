@@ -6,6 +6,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta http-equiv="X-UA-Compatible" content="IE=9" />
 	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<style>
 	body{
 		background: #0F2027;  
@@ -13,15 +14,7 @@
         background: linear-gradient(to right, #2C5364, #203A43, #0F2027);  
 
 	}
-	*{
-		box-sizing: border-box;
-	}
-	.column{
-		float: left;
-		width: 24.33%;
-		padding: 5px;
 
-	}
 #test{
 	margin-top: 2%;
 }
@@ -64,24 +57,26 @@ h1 strong{
 
 
 
+
+
 	</style>
 		</head>
 			<body>
 			<marquee><h1 style="color: white;">Hello, I'm Redgerald <strong>Nyamadavo</strong>, Welcome To My Portfolio</h1></marquee>
 			<div class="row" id="contacts" style="margin-top:2%">
 				<div style="float:right;padding-right:2%; padding-right:2%;padding-top:2%">
-					<img src="images/phone-call.png" style height="20px">
-				</div>
+					<a href="tel:rnyamadzavo1994@gmail.com" style = "color: black;"><img src="images/phone-call.png"  height="20px" >040 440 6937</a><!-- r2 <a> component style overriden with color black -->
+				</div> 
 				<div style="float:right;padding-left:2%; padding-right:2%;padding-top:2%">
-					<a href="mailto:rnyamadzavo1994@gmail.com"><img src="images/gmail.png" style height="20px">
+					<a href="mailto:rnyamadzavo1994@gmail.com" style = "color: black;"><img src="images/gmail.png"  height="20px" >&nbsprnyamadzavo1994@gmail.com
 					</a>
 				</div>
 				<div  style="float:right;padding-left:2%;padding-top:2%">
-					<a href="https://github.com/reggie9594/reggie9594-Redgerald_Nyamadzavo_T1A2.io#readme" target="_blank"><img src="images/github (1).png"  style height="20px">
+					<a href="https://github.com/reggie9594/reggie9594-Redgerald_Nyamadzavo_T1A2.io#readme" target="_blank" style = "color: black;"><img src="images/github (1).png" height="20px">&nbspreggie9594
 					</a>
 				</div>
 				<div style="float:right;padding-left:2%;padding-top:2%">
-					<a href="https://au.linkedin.com/" target="_blank"><img src="images/linkedin.png"  style height="20px">
+					<a href="https://www.linkedin.com/in/redgerald-nyamadzavo-1047441a6" target="_blank" style = "color: black;"><img src="images/linkedin.png" height="20px">&nbspRedgerald Nyamadzavo
 					</a>
 				</div>
 			</div>
@@ -92,6 +87,7 @@ h1 strong{
 						<img src="images/reggie1.jpeg" style="width:40%;padding-left: 15%; height:40%" alt="reggieimage">
 					</td>
 					<td colspan="6" style="width:100%; padding-left:5%; padding-right:3%">
+						<h4>You can fill in this form to get in touch.</h4>
 						<div class="grid-item">
 							<form action="/action_page.php">
 								<label for="fname">First Name</label>
@@ -130,28 +126,29 @@ h1 strong{
 
 		
 
-			<div class="row" id="test">
+			<div class="column-container" id="test">
 				<div class="column">
-					<a href="blog.html">
-						<img src="images/blog (1).png" alt="blogimage" style height="300px">
+					<a href="blog.html" title="Blog" style="color:white;">
+						<img src="images/blog (1).png" alt="blogimage" height="300px"><figcaption >Blog</figcaption>
+						<!-- r3 column containing graphical content for the navigation-->
 					</a>
 				</div>
 				<div class="column">
-				<a href="about.html"><img src="images/businessman-talking-about-data-analysis.png" alt="Aboutpage" style height="300px">
+				<a href="about.html" title="About" style="color:white;"><img src="images/businessman-talking-about-data-analysis.png" alt="Aboutpage" height="300px"><figcaption >About</figcaption>
 				</a>
 				</div>
 				<div class="column">
-					<a href="skills.html"><img src="images/working.png" alt="skillspage" style height="300px">
+					<a href="skills.html" title="Skills" style="color:white;"><img src="images/working.png" alt="skillspage" height="300px"><figcaption >Skills</figcaption>
 					</a>
 				</div>
 				<div class="column">
-				<a href="projects.html"><img src="images/testing.png" alt="Projectpage" style height="300px">
+					<a href="projects.html" title="Projects" style="color:white;"><img src="images/testing.png" alt="Projectpage" height="300px"><figcaption >Projects</figcaption><!-- r2 semantic html element-->
 				</a>
 				</div>
 			</div>
 			<footer style="color:white">
 			<marquee>2021 Redgerald Nyamadzavo &copy</marquee>
-		</footer>
+		</footer><!-- r2 footer component styled white-->
 
 
 		</body>
